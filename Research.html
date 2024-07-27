@@ -1,306 +1,220 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage of Yao (Mark) Mu</title>
 
-	<head>
-		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<!-- SITE TITLE -->
-		<title>Research|PINE Lab</title>	
-		<!--Favicon-->
-				
-		<!-- Latest Bootstrap min CSS -->
-		<link rel="stylesheet" href="static/css/bootstrap.min.css">		
-		<!-- Google Font -->	
-		<link rel="preconnect" href="https://fonts.googleapis.com/">
-		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-		<link href="static/css/css2.css" rel="stylesheet">				
-		<!-- Icon CSS -->
-		<link rel="stylesheet" href="static/css/themify-icons.css">
-		<link rel="stylesheet" href="static/css/icofont.css">
-		<link rel="stylesheet" href="static/css/Pe-icon-7-stroke.css">
-		<link rel="stylesheet" href="static/css/line-awesome.css">
-		<link rel="stylesheet" href="static/css/fontawesome.css">
-		<!--- owl carousel Css-->
-		<link rel="stylesheet" href="static/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="static/css/owl.theme.default.min.css">	
-		<!--jquery-simple-mobilemenu Css-->
-        <link rel="stylesheet" href="static/css/jquery-simple-mobilemenu.css">	
-		<!--magnific-popup Css-->
-        <link rel="stylesheet" href="static/css/magnific-popup.css">	
-		 <!--Slick Css-->
-        <link rel="stylesheet" href="static/css/slick.css">	
-		<!--slick theme Css-->
-		<link rel="stylesheet" href="static/css/slick-theme.css">					
-		<!-- Style CSS -->
-		<link rel="stylesheet" href="static/css/style.css">		
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	</head>
-	
-    <body data-spy="scroll" data-offset="80">
-	
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
 
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
 
-		<!--logo-->
-		<!-- START NAVBAR -->  
-		<div id="navigation" class="navbar-light bg-faded site-navigation">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-2 col-md-3 col-sm-4 align-self-center">
-						<div class="site-logo">
-							<a href=""><img src="static/title/logo0.png" alt="" style="filter: brightness(100%);"></a>
-						</div>
-					</div><!--- END Col -->
-					
-					<div class="col-xl-8 col-md-9 col-sm-8 d-flex justify-content-center">
-						<nav id="main-menu">
-							<ul>
-								<li><a href="index.html">Home</a></li>			
-								<li><a href="team.html">team</a></li>	
-								<li><a href="Research.html">Research</a></li>
-									<!--Research没有单独页-->							
-								<li><a href="publication.html">Publication</a></li>			  				  					  
-								<li><a href="joinus.html">Join Us</a></li>
-							</ul>
-							
-						</nav>
-						<div id="mobile_menu"></div>
-					
-					</div><!--- END Col -->
-					
-					<!-- <div class="col-xl-2 d-none d-xl-block text-end align-self-center">
-						<a href="#" class="btn_green">Book Now</a> -->
-					<!-- </div>
-					- END Col -->
-					
-					<!-- <ul class="mobile_menu">						
-						<li><a href="">Home</a></li>							  				  
-						<li><a href="tour.html">Tour</a></li>
-						<li><a href="about.html">About</a></li>	
-						<li><a href="service.html">Service</a></li>
-						<li><a href="#">Pages</a>
-							<ul class="submenu">
-								<li><a href="tour-details.html">Package Details</a></li>
-								<li><a href="blog-details.html">Blog Details</a></li>									
-							</ul>
-						</li>							  
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="joinus.html">Join us</a></li>
-					</ul>			 -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</div> 	  
-		<!-- END NAVBAR -->
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 30px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Yao Mark Mu</h1>
+        <p>Ph.D. Candidate of Computer Science<br>The University of Hong Kong</p>
+<!--        <p>Research Affiliate<br><a href="http://legacy.iza.org/en/webcontent/personnel/photos/index_html?key=24155">Institute for the Study of Labor (IZA)</a></p>-->
+    <h3><a href="https://yaomarkmu.github.io/">Home</a></h3>
+        <h3><a href="https://yaomarkmu.github.io/research.html">Research</a></h3>
+    <h3><a href="https://yaomarkmu.github.io/research/Resume_YaoMarkMu.pdf">Resume</a></h3>
+        <h3><a href="https://github.com/YaoMarkMu">Code</a></h3>
+<!--        <h3><a href="https://yaomarkmu.github.io/teaching.html">Teaching</a></h3> -->
+<!--        <h3><a href="https://yaomarkmu.github.io/personal.html">Personal</a></h3>-->
+    <b>Social</b><br>
+        <div class="social-row">
+          <a href="muyao@connect.hku.hk" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+          <a href=" https://scholar.google.com/citations?user=HK4x3fkAAAAJ&hl=zh-CN" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
+          <a href="https://www.researchgate.net/profile/Yao_Mu11/" class="author-social" target="_blank"><i class="fa fa-fw fa-researchgate-square"></i> Researchgate</a><br>
+          <a href="https://orcid.org/0000-0002-6910-0363"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
+          <a href="https://github.com/YaoMarkMu"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+          <a href="https://www.linkedin.com/in/mu-yao-308607185" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+          <br>
+        </div>
+        <br>
 
-		<!-- START TITLE TOP -->
-		<section class="page_banner" style="background-image: url(static/image/4.png);filter: brightness(240%);   background-size:cover; background-position: center center;">
-			<div class="banner_overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h1 class="section-blog-title">research</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END TITLE TOP -->
-		<section class="contact-form pt40 pb130">
-			<div class="container">
-				<div class="row">
-					<div class="col-12" data-aos="fade-up">
-						<div class="section-title text-center">
+    <p><b>Contact:</b><br>Department of Computer Science<br>The University of Hong Kong<br>Rm 301 Chow Yei Ching Building<br>Pokfulam, Hong Kong</p>
+<!--    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
 
+      </header>
+      <section>
+    <p>  <p>
+    
+    <h3><img src="research_vision_pic.png"  alt="Yao (Mark) Mu"></h3>
+    <!--<h3><img src="research_map.png"  alt="Yao (Mark) Mu"></h3>-->
+    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published &amp; Forthcoming Papers</h2>
 
-							<!--第一张图-->
-							<div style="margin-left: 220px;">
-								<table style="width: 100%;">
-									<tr>
-										<td style="padding: 10px; width: 30%; max-width: 30%; text-align: center; vertical-align: middle;">
-											<video style="width: 305px; height: 250px; margin-right: 10px;" controls>
-												<source src="static/Reserach_demo_video/EIF.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</td>
-										<td width="70%" style="vertical-align: middle; padding: 10px; text-align: left;">
-											<papertitle style="margin: 0;"><strong>Embodied instruction following in unknown environments</strong></papertitle>
-											<p style="margin-top: 10px; margin-bottom: 5px;font-family: Arial, sans-serif;">Embodied instruction following (EIF) demands intelligent systems to understand and execute human instructions in physical environments. However, it remains challenging due to the requirements of 1) accurately parse and interpret complex natural language instructions; 2) robustly perceive and understand dynamic unknown environmental contexts; and 3) seamlessly integrate this understanding to plan and execute appropriate actions. This project aims to address these three issues by leveraging recent advancements in 1) multi-modal sensory fusion for enhanced environmental perception; 2) grounding foundational models to realistic scenes; and 3) generative 3D scene representation learning for adaptive and efficient action planning. Our system can complete 204 complex human instructions (e.g. making breakfast, tidying rooms) in large house-level scenes.</p>
-											
-											<!-- <a href="data/StableLego.pdf" style="margin-right: 10px;color: rgb(0, 225, 255);" >[PDF]</a>
-											<a href="https://github.com/intelligent-control-lab/StableLego" style="color: rgb(0, 225, 255);">[Code and Dataset]</a> -->
-										</td>
-									</tr>
-								</table>
-							</div>
-						</br>
-							<!--第二张图-->
-							<div style="margin-left: 220PX;">
-								<table style="width: 100%;">
-									<tr>
-										<td style="padding: 10px; width: 50%; max-width: 30%; text-align: center; vertical-align: middle;">
-											<video style="width: 305px; height: 230px; margin-right: 10px;margin-top: 20px;" controls>
-												<source src="static/Reserach_demo_video/manipulation.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</td>
-										<td width="70%" style="vertical-align: middle; padding: 10px; text-align: left;">
-											<papertitle style="margin: 0;"><a href="https://guanxinglu.github.io/ManiGaussian/"><strong> Generative models for general robotic manipulation</strong></a></papertitle>
-											<p style="margin-top: 10px; margin-bottom: 5px;font-family: Arial, sans-serif;">Developing a variety of robotic manipulation agents in our unstructured 3D world has been a long-standing pursuit for the community, with applications ranging from home assistance to industrial assembly. Drawing on insights from the success of generative models in natural language processing (NLP) and computer vision (CV), this project aims to construct a generative foundation model for a broad spectrum of everyday robotic manipulation tasks, such as opening doors, toggling faucets, and cleaning dishes. To achieve this goal, we will explore various components that contribute to the final model, including how to build a scalable data engine, how to accurately perceive the 3D world, how to plan effectively, how to develop high-capacity policies, and how to bridge the gap between simulation and real-world application, among other things. Our robots can complete diverse manipulation tasks such as closing jars, opening drawers with high generalization ability.</p>
-											
-											<!-- <a href="data/StableLego.pdf" style="margin-right: 10px;color: rgb(0, 225, 255);" >[PDF]</a>
-											<a href="https://github.com/intelligent-control-lab/StableLego" style="color: rgb(0, 225, 255);">[Code and Dataset]</a> -->
-										</td>
-									</tr>
-								</table>
-								</div>
-							</br>
-							<!--第三张图-->
-							<div style="margin-left: 220PX;">
-								<table style="width: 100%;">
-									<tr>
-										
-										<td style="padding: 10px; width: 30%; max-width: 30%; text-align: center; vertical-align: middle;">
-											<video style="width: 306px; height: 260px; margin-right: 10px;" controls>
-												<source src="static/Reserach_demo_video/packing.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</td>
-										<td width="70%" style="vertical-align: middle; padding: 10px; text-align: left;">
-											<papertitle style="margin: 0;"><strong> General robotic packing system</strong></papertitle>
-											<p style="margin-top: 10px; margin-bottom: 5px;font-family: Arial, sans-serif;">Robotic packing plays an important role in many industrial applications such as warehouse management, cargo transportation and robotic assembly, which saves human labor cost with increased throughput and low accident rate. The autonomous packing system usually faces several challenges including: 1) accurately estimating the geometry of cluttered objects that are to be packed; 2) planning packing locations and orientations of irregular objects with high space utilization ratio. We developed interactive object visual perception framework for cluttered objects including recognition, segmentation and shape estimation, and we built reinforcement learning-based packing plan generation pipeline to fully utilize packing boxes. Our robotic packing system is able to pack 12 categories of everyday objects with 86.7% success rate.</p>
-											
-											<!-- <a href="data/StableLego.pdf" style="margin-right: 10px;color: rgb(0, 225, 255);" >[PDF]</a>
-											<a href="https://github.com/intelligent-control-lab/StableLego" style="color: rgb(0, 225, 255);">[Code and Dataset]</a> -->
-										</td>
-									</tr>
-								</table>
-								</div>
-							</br>
-							<!--第四张图-->
-							<div style="margin-left: 220PX;">
-								<table style="width: 100%;">
-									<tr>
-										<td style="padding: 10px; width: 30%;height: 35%; max-width: 30%; text-align: center; vertical-align: middle;">
-											<video style="width: 310px; height: 220px; margin-right: 10px;margin-top: 30px;" controls>
-												<source src="static/Reserach_demo_video/compression.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</td>
-										<td width="70%" style="vertical-align: middle; padding: 10px; text-align: left;">
-											<papertitle style="margin: 0;"><strong> Foundation model compression</strong></papertitle>
-											<p style="margin-top: 10px; margin-bottom: 5px;font-family: Arial, sans-serif;">Deploying power deep neural networks especially large foundation models (GPT-4/Gemini) on robots is usually prohibited due to the strict limits of computational resources. To address this, we propose: 1) fundamental network compression techniques that reduce model complexity without performance degradation; 2) automatic model compression framework that selects the optimal compression policy within hardware resource constraint; 3) hardware-friendly compilation engine to achieve actual speedup and memory savings for robot-based computation platforms. With our framework, we can deploy large vision transformers in STM32F4 (256K memory, 5 USD) for a wide variety of tasks including object detection and instance segmentation.</p>
-											
-											<!-- <a href="data/StableLego.pdf" style="margin-right: 10px;color: rgb(0, 225, 255);" >[PDF]</a>
-											<a href="https://github.com/intelligent-control-lab/StableLego" style="color: rgb(0, 225, 255);">[Code and Dataset]</a> -->
-										</td>
-									</tr>
-								</table>
-								</div>
-							</br>
-							<!--第五张图-->
-							<div style="margin-left: 220PX;">
-							<table style="width: 100%;">
-								<tr>
-									<td style="padding: 10px; width: 30%; max-width: 30%; text-align: center; vertical-align: middle;">
-										<video style="width: 305px; height: 260px; margin-right: 10px;" controls>
-											<source src="static/videos/video3.mp4" type="video/mp4">
-											Your browser does not support the video tag.
-										</video>
-									</td>
-									<td width="70%" style="vertical-align: middle; padding: 10px; text-align: left;">
-										<papertitle style="margin: 0;"><a href="https://xuxw98.github.io/DSPDet3D/" ><strong> Real-time online 3D scene perception</strong></a></papertitle>
-										<p style="margin-top: 10px; margin-bottom: 5px;font-family: Arial, sans-serif;">3D scene perception methods including 3D semantic/instance segmentation, 3D object detection, 3D representation extraction, are widely used as the foundation of robotic planning and interaction. Although various research have been conducted on this field, it is still very challenging to perceive the 3D scene in an embodied manner: a real-time, online, efficient scene perception is still on the way. This project establishs a general online 3D perception framework, which converts existing offline 3D perception model with online alibility without model and task-specific design. With this framework, we construct a VFM-assisted 3D segment anything model that can online processing streaming RGB-D videos and output real-time 3D reconstruction and fine-grained segmentation results with leading performance on ScanNet200, SceneNN, etc. datasets.</p>
-										
-										<!-- <a href="data/StableLego.pdf" style="margin-right: 10px;color: rgb(0, 225, 255);" >[PDF]</a>
-										<a href="https://github.com/intelligent-control-lab/StableLego" style="color: rgb(0, 225, 255);">[Code and Dataset]</a> -->
-									</td>
-								</tr>
-							</table>
-							</div>
-						</br>
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2305.15021">EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought</a> <br> <i>Thirty-seventh Conference on Neural Information Processing Systems (<b>NeurIPS 2023, Spotlight</b>)</i>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Embodied AI is a crucial frontier in robotics, capable of planning and executing action sequences for robots to accomplish long-horizon tasks in physical environments. In this work, we introduce EmbodiedGPT, an end-to-end multi-modal foundation model for embodied AI, empowering embodied agents with multi-modal understanding and execution capabilities. To achieve this, we have made the following efforts: (i) We craft a large-scale embodied planning dataset, termed EgoCOT. The dataset consists of carefully selected videos from the Ego4D dataset, along with corresponding high-quality language instructions. Specifically, we generate a sequence of sub-goals with the "Chain of Thoughts" mode for effective embodied planning. (ii) We introduce an efficient training approach to EmbodiedGPT for high-quality plan generation, by adapting a 7B large language model (LLM) to the EgoCOT dataset via prefix tuning. (iii) We introduce a paradigm for extracting task-related features from LLM-generated planning queries to form a closed loop between high-level planning and low-level control. Extensive experiments show the effectiveness of EmbodiedGPT on embodied tasks, including embodied planning, embodied control, visual captioning, and visual question answering. Notably, EmbodiedGPT significantly enhances the success rate of the embodied control task by extracting more effective features. It has achieved a remarkable 1.6 times increase in success rate on the Franka Kitchen benchmark and a 1.3 times increase on the Meta-World benchmark, compared to the BLIP-2 baseline fine-tuned with the Ego4D dataset. </p></div>
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2312.11598">SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution </a> <br> <i>The IEEE Computer Vision and Pattern Recognition Conference (<b>CVPR 2024</b>)</i>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Diffusion models have demonstrated strong potential for robotic trajectory planning. However, generating coherent and long-horizon trajectories from high-level instructions remains challenging, especially for complex tasks requiring multiple sequential skills. We propose SkillDiffuser, an end-to-end hierarchical planning framework integrating interpretable skill learning with conditional diffusion planning to address this problem. At the higher level, the skill abstraction module learns discrete, human-understandable skill representations from visual observations and language instructions. These learned skill embeddings are then used to condition the diffusion model to generate customized latent trajectories aligned with the skills. It allows for generating diverse state trajectories that adhere to the learnable skills. By integrating skill learning with conditional trajectory generation, SkillDiffuser produces coherent behavior following abstract instructions across diverse tasks. Experiments on multi-task robotic manipulation benchmarks like Meta-World and LOReL demonstrate state-of-the-art performance and human-interpretable skill representations from SkillDiffuser. </p></div>
+        
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2302.01877">AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners</a> <br> <i>The Fortieth International Conference on Machine Learning (<b>ICML 2023, Oral Presentation</b>)</i>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Diffusion models have demonstrated their powerful generative capability in many tasks, with great potential to serve as a paradigm for offline reinforcement learning. However, the quality of the diffusion model is limited by the insufficient diversity of training data, which hinders the performance of planning and the generalizability to new tasks. This paper introduces AdaptDiffuser, an evolutionary planning method with diffusion that can self-evolve to improve the diffusion model hence a better planner, not only for seen tasks but can also adapt to unseen tasks. AdaptDiffuser enables the generation of rich synthetic expert data for goal-conditioned tasks using guidance from reward gradients. It then selects high-quality data via a discriminator to finetune the diffusion model, which improves the generalization ability to unseen tasks. Empirical experiments on two benchmark environments and two carefully designed unseen tasks in KUKA industrial robot arm and Maze2D environments demonstrate the effectiveness of AdaptDiffuser. For example, AdaptDiffuser not only outperforms the previous art Diffuser by 20.8% on Maze2D and 7.5% on MuJoCo locomotion, but also adapts better to new tasks, e.g., KUKA pick-and-place, by 27.9% without requiring additional expert data. </p></div>
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://sites.google.com/view/metadiffuser">	MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL</a> <br> <i>The Fortieth International Conference on Machine Learning (<b>ICML 2023</b>)</i>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning(RL). However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture. </p></div>
+      
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2206.04028">CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving</a> <br> <i>Eleventh International Conference on Learning Representations (<b>ICLR 2023</b>)</i>, Poster. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Unsupervised contrastive learning for indoor-scene point clouds has achieved great successes. However, unsupervised learning point clouds in outdoor scenes remains challenging because previous methods need to reconstruct the whole scene and capture partial views for the contrastive objective. This is infeasible in outdoor scenes with moving objects, obstacles, and sensors. In this paper, we propose CO^3, namely Cooperative Contrastive Learning and Contextual Shape Prediction, to learn 3D representation for outdoor-scene point clouds in an unsupervised manner. CO^3 has several merits compared to existing methods. (1) It utilizes LiDAR point clouds from vehicle-side and infrastructure-side to build views that differ enough but meanwhile maintain common semantic information for contrastive learning, which are more appropriate than views built by previous methods. (2) Alongside the contrastive objective, shape context prediction is proposed as pre-training goal and brings more task-relevant information for unsupervised 3D point cloud representation learning, which are beneficial when transferring the learned representation to downstream detection tasks. (3) As compared to previous methods, representation learned by CO^3 is able to be transferred to different outdoor scene dataset collected by different type of LiDAR sensors. (4) CO^3 improves current state-of-the-art methods on both Once and KITTI datasets by up to 2.58 mAP. </p></div>
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2210.00498">EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model</a> <br> <i>Eleventh International Conference on Learning Representations (<b>ICLR 2023</b>)</i>, Poster. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Unsupervised reinforcement learning (URL) poses a promising paradigm to learn useful behaviors in a task-agnostic environment without the guidance of extrinsic rewards to facilitate the fast adaptation of various downstream tasks. Previous works focused on the pre-training in a model-free manner while lacking the study of transition dynamics modeling that leaves a large space for the improvement of sample efficiency in downstream tasks. To this end, we propose an Efficient Unsupervised Reinforcement Learning Framework with Multi-choice Dynamics model (EUCLID), which introduces a novel model-fused paradigm to jointly pre-train the dynamics model and unsupervised exploration policy in the pre-training phase, thus better leveraging the environmental samples and improving the downstream task sampling efficiency. However, constructing a generalizable model which captures the local dynamics under different behaviors remains a challenging problem. We introduce the multi-choice dynamics model that covers different local dynamics under different behaviors concurrently, which uses different heads to learn the state transition under different behaviors during unsupervised pre-training and selects the most appropriate head for prediction in the downstream task. Experimental results in the manipulation and locomotion domains demonstrate that EUCLID achieves state-of-the-art performance with high sample efficiency, basically solving the state-based URLB benchmark and reaching a mean normalized score of 104.0±1.2% in downstream tasks with 100k fine-tuning steps, which is equivalent to DDPG's performance at 2M interactive steps with 20x more data.</p></div>
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://sites.google.com/view/dominorl/">DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning</a> <br> <i>The 36th Conference on Neural Information Processing Systems (<b>NeurIPS 2022</b>)</i>, <b>Spotlight</b>, Featured Papers Panels 5A. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Adapting to the changes in transition dynamics is essential in robotic applications. By learning a conditional policy with a compact context, context-aware meta-reinforcement learning provides a flexible way to adjust behavior according to dynamics changes. However, in real-world applications, the agent may encounter complex dynamics changes. Multiple confounders can influence the transition dynamics, making it challenging to infer accurate context for decision-making. This paper addresses such a challenge by decomposed mutual information optimization (DOMINO) for context learning, which explicitly learns a disentangled context to maximize the mutual information between the context and historical trajectories while minimizing the state transition prediction error. Our theoretical analysis shows that DOMINO can overcome the underestimation of the mutual information caused by multi-confounded challenges via learning disentangled context and reduce the demand for the number of samples collected in various environments. Extensive experiments show that the context learned by DOMINO benefits both model-based and model-free reinforcement learning algorithms for dynamics generalization in terms of sample efficiency and performance in unseen environments. </p></div>
+      
+      <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://anonymous-reposi.github.io">MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning</a> <br> <i>The 36th Conference on Neural Information Processing Systems (<b>NeurIPS 2022</b>)</i>, <b>Spotlight</b>, Featured Papers Panels 6B. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Placement is an essential task in modern chip design, aiming at placing millions of circuit modules on a 2D chip canvas. Unlike the human-centric solution, which requires months of intense effort by hardware engineers to produce a layout to minimize delay and energy consumption, deep reinforcement learning has become an emerging autonomous tool. However, the learning-centric method is still in its early stage, impeded by a massive design space of size ten to the order of a few thousand. This work presents MaskPlace to automatically generate a valid chip layout design within a few hours, whose performance can be superior or comparable to recent advanced approaches. It has several appealing benefits that prior arts do not have. Firstly, MaskPlace recasts placement as a problem of learning pixel-level visual representation to comprehensively describe millions of modules on a chip,  enabling placement in a high-resolution canvas and a large action space. It outperforms recent methods that represent a chip as a hypergraph. Secondly, it enables training the policy network by an intuitive reward function with dense reward, rather than a complicated reward function with sparse reward from previous methods. Thirdly, extensive experiments on many public benchmarks show that MaskPlace outperforms existing RL approaches in all key performance metrics, including wirelength, congestion, and density. For example, it achieves 60%-90% wirelength reduction and guarantees zero overlaps. We believe MaskPlace can improve AI-assisted chip layout design.</p></div>
+      
+      
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://openreview.net/forum?id=jeATherHHGj">Model-Based Reinforcement Learning via Imagination with Derived Memory</a> <br> <i>The 35th Conference on Neural Information Processing Systems (<b>NeurIPS 2021</b>)</i>, Poster. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Model-based reinforcement learning aims to improve the sample efficiency of policy learning by modeling the dynamics of the environment. Recently, the latent dynamics model is further developed to enable fast planning in a compact space. It summarizes the high-dimensional experiences of an agent, which mimics the memory function of humans. Learning policies via imagination with the latent model shows great potential for solving complex tasks. However, only considering memories from the true experiences in the process of imagination could limit its advantages. Inspired by the memory prosthesis proposed by neuroscientists, we present a novel model-based reinforcement learning framework called Imagining with Derived Memory (IDM). It enables the agent to learn policy from enriched diverse imagination with prediction-reliability weight, thus improving sample efficiency and policy robustness. Experiments on various high-dimensional visual control tasks in the DMControl benchmark demonstrate that IDM outperforms previous state-of-the-art methods in terms of policy robustness and further improves the sample efficiency of the model-based method. </p></div>
+        
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2206.08883">CtrlFormer: Learning Transferable State Representation for Visual Control via Transformer</a> <br> <i>The 39th International Conference on Machine Learning (<b>ICML2022</b>)</i>, <b>Spotlight</b>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Transformer has achieved great successes in learning vision and language representation, which is general across various downstream tasks. In visual control, learning transferable state representation that can transfer between different control tasks is important to reduce the training sample size. However, porting Transformer to sample-efficient visual control remains a challenging and unsolved problem. To this end, we propose a novel Control Transformer (CtrlFormer), possessing many appealing benefits that prior arts do not have. Firstly, CtrlFormer jointly learns self-attention mechanisms between visual tokens and policy tokens among different control tasks, where multitask representation can be learned and transferred without catastrophic forgetting. Secondly , we carefully design a contrastive reinforcement learning paradigm to train CtrlFormer, enabling it to achieve high sample efficiency, which is important in control problems. For example, in the DMControl benchmark, unlike recent advanced methods that failed by producing a zero score in the "Cartpole" task after transfer learning with 100k samples, CtrlFormer can achieve a state-of-the-art score 769 ±34 with only 100k samples, while maintaining the performance of previous tasks. The code and models are released in our project homepage. </p></div>
 
-						</br>
-						</div>
-					</div><!-- END COL -->
-				</div><!-- END ROW -->		
-				
-				<div class="row">
-					<div class="col-xl-7 mx-auto">
-						<div class="contact-form">
-							<form method="post" action="contact.php" enctype="multipart/form-data">
-							</form>
-						</div>					
-					</div>				
-				</div>				
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2205.11051">Flow-based Recurrent Belief State Learning for POMDPs</a> <br> <i>The 39th International Conference on Machine Learning (<b>ICML2022</b>)</i>, <b>Spotlight</b>. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Partially Observable Markov Decision Process (POMDP) provides a principled and generic framework to model real world sequential decision making processes but yet remains unsolved, especially for high dimensional continuous space and unknown models. The main challenge lies in how to accurately obtain the belief state, which is the probability distribution over the unobservable environment states given historical information. Accurately calculating this belief state is a precondition for obtaining an optimal policy of POMDPs. Recent advances in deep learning techniques show great potential to learn good belief states. However, existing methods can only learn approximated distribution with limited flexibility. In this paper, we introduce the \textbf{F}l\textbf{O}w-based \textbf{R}ecurrent \textbf{BE}lief \textbf{S}tate model (FORBES), which incorporates normalizing flows into the variational inference to learn general continuous belief states for POMDPs. Furthermore, we show that the learned belief states can be plugged into downstream RL algorithms to improve performance. In experiments, we show that our methods successfully capture the complex belief states that enable multi-modal predictions as well as high quality reconstructions, and results on challenging visual-motor control tasks show that our method achieves superior performance and sample efficiency.</p></div>
 
-			</div><!--- END CONTAINER-FLUID -->
-		</section>
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2203.12244">Scale-Equivalent Distillation for Semi-Supervised Object Detection</a> <br> <i>The IEEE Computer Vision and Pattern Recognition Conference (<b>CVPR2022</b>)</i>, Poster. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Recent Semi-Supervised Object Detection (SS-OD) methods are mainly based on self-training, ie, generating hard pseudo-labels by a teacher model on unlabeled data as supervisory signals. Although they achieved certain success, the limited labeled data in semi-supervised learning scales up the challenges of object detection. We analyze the challenges these methods meet with the empirical experiment results. We find that the massive False Negative samples and inferior localization precision lack consideration. Besides, the large variance of object sizes and class imbalance (ie, the extreme ratio between background and object) hinder the performance of prior arts. Further, we overcome these challenges by introducing a novel approach, Scale-Equivalent Distillation (SED), which is a simple yet effective end-to-end knowledge distillation framework robust to large object size variance and class imbalance. SED has several appealing benefits compared to the previous works.(1) SED imposes a consistency regularization to handle the large scale variance problem.(2) SED alleviates the noise problem from the False Negative samples and inferior localization precision.(3) A re-weighting strategy can implicitly screen the potential foreground regions of the unlabeled data to reduce the effect of class imbalance. Extensive experiments show that SED consistently outperforms the recent state-of-the-art methods on different datasets with significant margins. For example, it surpasses the supervised counterpart by more than 10 mAP when using 5% and 10% labeled data on MS-COCO.</p></div>
+        
+        
+     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2202.09982">Don't Touch What Matters: Task-Aware Lipschitz Data Augmentationfor Visual Reinforcement Learning</a> <br> <i> The 31st International Joint Conference on Artificial Intelligence (<b>IJCAI 2022</b>)</i>, Poster. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> One of the key challenges in visual Reinforcement Learning (RL) is to learn policies that can generalize to unseen environments. Recently, data augmentation techniques aiming at enhancing data diversity have demonstrated proven performance in improving the generalization ability of learned policies. However, due to the sensitivity of RL training, naively applying data augmentation, which transforms each pixel in a task-agnostic manner, may suffer from instability and damage the sample efficiency, thus further exacerbating the generalization performance. At the heart of this phenomenon is the diverged action distribution and high-variance value estimation in the face of augmented images. To alleviate this issue, we propose Task-aware Lipschitz Data Augmentation (TLDA) for visual RL, which explicitly identifies the task-correlated pixels with large Lipschitz constants, and only augments the task-irrelevant pixels. To verify the effectiveness of TLDA, we conduct extensive experiments on DeepMind Control suite, CARLA and DeepMind Manipulation tasks, showing that TLDA improves both sample efficiency in training time and generalization in test time. It outperforms previous state-of-the-art methods across the 3 different visual control benchmarks.</p></div>
+        
+     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/9268413">Mixed Reinforcement Learning for Efficient Policy Optimization in Stochastic Environments</a>  <br> <i>International Conference on Computer Applications in Shipbuilding (ICCAS)</i>, <b>Student Best Paper Award, Oral Presentation.</b> <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Reinforcement learning has the potential to control stochastic nonlinear systems in optimal manners successfully. We propose a mixed reinforcement learning (mixed RL) algorithm by simultaneously using dual representations of environmental dynamics to search the optimal policy. The dual representation includes an empirical dynamic model and a set of state-action data. The former can embed the designer’s knowledge and reduce the difficulty of learning, and the latter can be used to compensate the model inaccuracy since it reflects the real system dynamics accurately. Such a design has the capability of improving both learning accuracy and training speed. In the mixed RL framework, the additive uncertainty of stochastic model is compensated by using explored state-action data via iterative Bayesian estimator (IBE). The optimal policy is then computed in an iterative way by alternating between policy … </p></div>
 
-		
-		
-		<!--底栏-->
-		<!-- START FOOTER -->
-		<div class="" style="background-image: url('static/bg_img/bg2.png');background-size: cover;">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">	
-						<div class="col-xl-4 col-lg-4 col-md-6 col-12">						
-							<div class="footer-widget">	
-								<div class="foot_about_us">
-									<style>
-										.fot-logo {
-											width: 150%; /* 调整图像宽度为原始大小的 150% */
-											height: auto; /* 根据宽度自动调整高度，保持图像比例 */
-										}
-									</style>
-									<img src="static/title/logo6.png" class="fot-logo" alt="" style="margin-left: -40px;">	
-									<!-- <p class="mt-3">
-										If you are interested in what we do, please contact us in time. 
-									</p> -->
-									
-									<ul class="cont_info">
-										<li><i class="fa-regular fa-envelope"></i> pineatntu@gmail.com</li>
-										<li><i class="fa-regular fa-map"></i> 50 Nanyang Avenue, Singapore 639798</li>
-									</ul>							
-								</div>							
-							</div>							
-						</div><!--- END COL -->											
-							</div>
-						</div>
-					</div>
-				</div>	
-			</div><!--- END CONTAINER -->
-		</div>
-		<!-- END FOOTER -->			
+     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://openreview.net/forum?id=2wzqshimR2w">Neural MPC-based Decision-making Framework for Autonomous Driving in Multi-
+Lane Roundabout</a> <br> <i>26th IEEE International Conference on Intelligent Transportation Systems ITSC 2023</i>, <b>Oral Presentation.</b> <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The multi-lane roundabout poses significant challenges for autonomous driving due to its complex road structure and traffic conditions. To address these challenges, this paper proposes a novel Neural Model Predictive Control (NMPC)-based decision-making framework that integrates prediction, planning, and control for autonomous vehicles to navigate multi-lane roundabouts. The proposed NMPC framework learns a dynamical model, incorporating interaction data, to accurately predict the behavior of surrounding traffic participants. Multiple candidate static paths are then generated based on the road structure, and the decision-making problem is formulated as a series of parallel static path tracking control problems subject to safety constraints. The static path with minimal tracking cost is selected as the target reference path, and the tracking control is generated simultaneously. To enhance computational efficiency, NMPC utilizes a critic network and an actor network to approximate the tracking cost and the control policy, respectively. Experimental evaluation on a multi-lane roundabout simulator, based on a real roundabout in Beijing, demonstrates that the proposed method performs better in terms of driving safety and efficiency compared to several baseline algorithms across various traffic densities.</p></div>
+
+        
+        
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/9575205">Separated proportional-integral lagrangian for chance constrained reinforcement learning</a> <br> <i>2021 IEEE Intelligent Vehicles Symposium (IV), 193-199</i>, <b>Final list of Student Best Paper Award, Oral Presentation.</b> <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Safety is essential for reinforcement learning (RL) applied in real-world tasks like autonomous driving. Imposing chance constraints (or probabilistic constraints) is a suitable way to enhance RL safety under model uncertainty. Existing chance constrained RL methods like the penalty methods and the Lagrangian methods either exhibit periodic oscillations or learn an over-conservative or unsafe policy. In this paper, we address these shortcomings by elegantly combining these two methods and propose a separated proportional-integral Lagrangian (SPIL) algorithm. We first rewrite penalty methods as optimizing safe probability according to the proportional value of constraint violation, and Lagrangian methods as optimizing according to the integral value of the violation. Then we propose to add up both the integral and proportion values to optimize the policy, with an integral separation technique to limit the integral value within a reasonable range. Besides, the gradient of policy is computed in a model-based paradigm to accelerate training. The proposed method is proved to reduce oscillations and conservatism while ensuring safety by a car-following experiment. </p></div>
+ 
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/9683748">Model-Based Actor-Critic with Chance Constraint for Stochastic System</a> <br> <i>2021 60th IEEE Conference on Decision and Control (CDC)</i>,<b>Oral Presentation.</b> <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Safety is essential for reinforcement learning (RL) applied in real-world situations. Chance constraints are suitable to represent the safety requirements in stochastic systems. Previous chance constrained RL methods usually learn an either conservative or unsafe policy, and some of them also suffer from a low convergence rate. In this paper, we propose a model-based chance constrained actor-critic (CCAC) algorithm which can efficiently learn a safe and non-conservative policy. Different from existing methods that optimize a conservative lower bound, CCAC directly solves the original chance constrained problems, where the objective function and safe probability are simultaneously optimized with adaptive weights. In order to improve the convergence rate, CCAC utilizes the gradient of dynamic model to accelerate policy optimization. The effectiveness of CCAC is demonstrated by a stochastic car-following task. Experiments indicate that CCAC achieves good performance while guaranteeing safety, with a five times faster convergence rate compared with model-free RL methods. It also has 100 times higher online computation efficiency than traditional safety techniques such as stochastic model predictive control. </p></div>
+ 
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/9785377">Model-Based Chance-Constrained Reinforcement Learning via Separated Proportional-Integral Lagrangian</a> <br> <i>IEEE Transactions on Neural Networks and Learning Systems</i>,Impact Factor：10.451. <br><button class="accordion">
+    Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Safety is essential for reinforcement learning (RL) applied in the real world. Adding chance constraints (or probabilistic constraints) is a suitable way to enhance RL safety under uncertainty. Existing chance-constrained RL methods, such as the penalty methods and the Lagrangian methods, either exhibit periodic oscillations or learn an overconservative or unsafe policy. In this article, we address these shortcomings by proposing a separated proportional-integral Lagrangian (SPIL) algorithm. We first review the constrained policy optimization process from a feedback control perspective, which regards the penalty weight as the control input and the safe probability as the control output. Based on this, the penalty method is formulated as a proportional controller, and the Lagrangian method is formulated as an integral controller. We then unify them and present a proportional-integral Lagrangian method to get both their merits with an integral separation technique to limit the integral value to a reasonable range. To accelerate training, the gradient of safe probability is computed in a model-based manner. The convergence of the overall algorithm is analyzed. We demonstrate that our method can reduce the oscillations and conservatism of RL policy in a car-following simulation. To prove its practicality, we also apply our method to a real-world mobile robot navigation task, where our robot successfully avoids a moving obstacle with highly uncertain or even aggressive behaviors.</p></div>
  
 
-		<!-- Latest jQuery -->
-		<script src="static/js/jquery.min.js"></script>
-		<!-- Latest compiled and minified Bootstrap -->
-		<script src="static/js/bootstrap.min.js"></script>
-		<!-- imagesloaded.pkgd -->
-		<script src="static/js/imagesloaded.pkgd.min.js"></script>
-		<!-- masonry -->
-		<script src="static/js/masonry.pkgd.min.js"></script>		
-		<!-- jquery-simple-mobilemenu.min -->
-		<script src="static/js/jquery-simple-mobilemenu.js"></script>	
-		<!-- modernizer JS -->		
-		<script src="static/js/modernizr-2.8.3.min.js"></script>																	
-		<!-- owl-carousel min js  -->
-		<script src="static/js/owl.carousel.min.js"></script>
-		<!-- waypoints -->
-		<script src="static/js/waypoints.min.js"></script>
-		<!-- counterup -->
-		<script src="static/js/jquery.counterup.min.js"></script>
-		<!-- magnific-popup js -->	
-		<script src="static/js/jquery.magnific-popup.js"></script>					
-		<!-- scrolltopcontrol js -->
-		<script src="static/js/scrolltopcontrol.js"></script>	
-		<!-- slick js -->			
-		<script src="static/js/slick.js"></script>									
-		<!-- scripts js -->
-		<script src="static/js/scripts.js"></script>
-    </body>
+  
+
+    <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
 </html>
